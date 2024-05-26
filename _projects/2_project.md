@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: IDD-AW A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
@@ -8,12 +8,13 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Large-scale deployment of fully autonomous vehicles requires a very high degree of robustness to unstructured traffic, weather conditions, and should prevent unsafe mispredictions. While there are several datasets and benchmarks focusing on segmentation for drive scenes, they are not specifically focused on safety and robustness issues. We introduce the IDD-AW dataset, which provides 5000 pairs of high-quality images with pixel-level annotations, captured under rain, fog, low light, and snow in unstructured driving conditions. As compared to other adverse weather datasets, we provide 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+- more annotated images
+-  paired Near-Infrared (NIR) image for each frame
+- larger label set with a 4-level label hierarchy to capture unstructured traffic conditions. 
 
+We benchmark state-of-the-art models for semantic segmentation in IDD-AW. We also propose a new metric called" Safe mean Intersection over Union (Safe mIoU)" for hierarchical datasets which penalizes dangerous mispredictions that are not captured in the traditional definition of mean Intersection over Union (mIoU). The results show that IDD-AW is one of the most challenging datasets to date for these tasks. The dataset and code will be available at [IDDAW](https://iddaw.github.io)
     ---
     layout: page
     title: project

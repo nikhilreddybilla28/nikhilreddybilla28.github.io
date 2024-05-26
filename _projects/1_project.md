@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: CNN based image resizing forensics for double compressed JPEG images
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -8,11 +8,8 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This paper investigates a novel CNN-based architecture for image resizing forensics in the presence of Double-JPEG compression. Two sub-problems are addressed as part of this paper: first, the detection of resizing in DJPEG images, and second, determining the factor used to resize the image before the second JPEG compression. The image resizing technique used in this paper is image scaling. The proposed network is based on utilizing specially chosen high pass filters that constitute the pre-processing layer, followed by four convolutional layers, two fully connected layers, and a final softmax layer. The high-pass filters preserve the resizing clues in the form of residuals applied at the pre-processing layer, followed by utilizing the residuals as inputs to a CNN to detect the presence of resizing and also for estimating the resizing factor. The proposed network is fully end-to-end and does not rely on any hand-crafting. Experimental validation is carried out utilizing images from the RAISE dataset. Comparative analysis with four state-of-the-art methods demonstrates the proposed CNN-based architecture’s superiority for resizing detection and resize factor determination sub-problems.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
     layout: page
