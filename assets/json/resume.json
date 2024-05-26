@@ -128,14 +128,21 @@
   ],
   "skills": [
     {
-      "name": "ML",
+      "name": "",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Deep Learning",
         "Pytorch",
         "Python",
-        "C#"
+        "C#",
+        "SQL",
+        "Data Structures & Algorithms",
+        "Object Oriented Programming",
+        "DBMS",
+        "Git",
+        "Azure Cognitive Services "
+
       ]
     }
   ],
@@ -165,24 +172,14 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Dr.Girish Varma :",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Assistant Professor \n International Institute of Information Technology Hyderabad, India \n 040-6653 1000 Ext:1212 , girish.varma@iiit.ac.in"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Dr.Manish Okade",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "reference": "Associate Professor \n National Institute of Technology Rourkela, India \n (+91) 661 246 2471 , 3471 , okadem@nitrkl.ac.i"
     }
   ]
 }
