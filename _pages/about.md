@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Nikhil Reddy Billa, a researcher and software engineer. I hold a B.Tech in Electrical Engineering from NIT Rourkela and currently work as a Software Engineer at NCR Corporation in Hyderabad, India.I am deeply interested in computer vision, and machine learning. My focus lies in autonomous navigation, domain adaptation, Generative AI, 3D vision and their applications in the medical field. I am eagerly explore emerging areas like Large Language Models (LLMs).
+I am Nikhil Reddy Billa, a graduate student and researcher. I hold a B.Tech in Electrical Engineering from NIT Rourkela and previously worked as a Software Engineer at NCR Corporation. I am deeply interested in computer vision, and machine learning. My focus lies in autonomous navigation, domain adaptation, Generative AI, 3D vision and their applications in the medical field. I am eagerly explore emerging areas like Large Language Models (LLMs).
 
-My research journey began with a project on CNN-based image resizing forensics for double-compressed JPEG images, conducted under the guidance of Dr. Manish Okade. This work laid the foundation for my deep interest in digital forensics and deep learning.At the Machine Learning Lab of IIIT Hyderabad, I worked with Dr. Girish Varma on the Indian Driving Dataset in Adverse Weather (IDD-AW). I developed a novel metric, safe-miou, to enhance segmentation accuracy in unstructured traffic and adverse weather conditions. I also collaborated with the University of Leicester and IIIT Hyderabad on a project focused on unsupervised domain adaptation for detecting abnormal retinal development.
+My research includes CNN-based image resizing forensics, segmentation in unstructured traffic and adverse weather, and unsupervised domain adaptation for detecting retinal development. I have collaborated with IIIT Hyderabad and the University of Leicester on these projects.
 
 Looking ahead, I am excited to start my MS in Computer Engineering in Fall 2024, where I aim to further my research in machine learning and computer vision. My goal is to drive innovations that address real-world challenges and enhance technological impact.
 
