@@ -109,8 +109,7 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: > 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -230,7 +229,7 @@ exclude:
   - _pages/blog.md
   - _pages/news.md
   - _pages/teaching.md
-  - _pages/people.md
+  - _pages/profiles.md
   - _pages/dropdowm.md
   - purgecss.config.js
   - README.md

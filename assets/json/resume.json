@@ -10,9 +10,9 @@
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Blacksburg",
       "countryCode": "US",
-      "region": "California"
+      "region": "Virginia"
     },
     "profiles": [
       {
@@ -33,7 +33,7 @@
       "highlights": ["Emerald POS"]
     }
   ],
-  "Research": [
+  "research": [
     {
       "organization": "ML Lab, International Institute of Information Technology (IIIT) Hyderabad",
       "location": "Hyderabad, India",
@@ -63,7 +63,7 @@
       "date": "2022-08-03",
       "awarder": "NCR London Center",
       "url": "",
-      "summary": "Received the People’s Choice Award from NCR London Center for a smart store prototype at the NCR Global Hackathon 2022."
+      "summary": "Received the People's Choice Award from NCR London Center for a smart store prototype at the NCR Global Hackathon 2022."
     }
   ],
   "certificates": [
@@ -73,41 +73,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
