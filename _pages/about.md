@@ -19,7 +19,7 @@ blog : false
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Nikhil Reddy Billa, a graduate student and researcher. I hold a B.Tech in Electrical Engineering from NIT Rourkela and previously worked as a Software Engineer at NCR Corporation. I am deeply interested in computer vision, and machine learning. My focus lies in autonomous navigation, domain adaptation, Generative AI, 3D vision and their applications in the medical field. I am eagerly explore emerging areas like Large Language Models (LLMs).
+I am Nikhil Reddy Billa, a graduate student and researcher. I hold a B.Tech degree in Electrical Engineering from NIT Rourkela and previously worked as a Software Engineer at NCR Corporation. I am deeply interested in computer vision, and machine learning. My focus lies in autonomous navigation, domain adaptation, Generative AI, 3D vision and their applications in the medical field. I am eagerly explorING emerging areas like Large Language Models (LLMs).
 
 My research includes CNN-based image resizing forensics, segmentation in unstructured traffic and adverse weather, and unsupervised domain adaptation for detecting retinal development. I have collaborated with IIIT Hyderabad and the University of Leicester on these projects.
 
