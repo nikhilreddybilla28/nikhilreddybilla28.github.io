@@ -60,14 +60,12 @@ Uncompressed TIFF images from RAISE dataset are passed through two JPEG compress
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project1/benchmark_plot.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project1/acc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project1/benchmark_plot_qf2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    
 </div>
 <div class="caption">
-    Accuracy in (\%) for (a) different resizing factors with $QF_2$= 90 and $QF_1 \in$ $\{50, 60, 70, 80, 90\}$ (b) different quality factors for second compression ($QF_2$) averaged over all resizing factors ($\xi$) and first quality factors ($QF_1$)
+    Accuracy in (%) for (a) different resizing factors with QF_2= 90 and QF_1 ∈ {50, 60, 70, 80, 90} (b) different quality factors for second compression (QF_2) averaged over all resizing factors (xi) and first quality factors (QF_1)
 </div>
 
 The code is simple.
