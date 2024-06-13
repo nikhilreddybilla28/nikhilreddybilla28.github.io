@@ -1,8 +1,8 @@
 ---
 layout: page
 title: CNN based image resizing forensics for double compressed JPEG images
-description: with background image
-img: assets/img/12.jpg
+description: 
+img: assets/img/project1/background.jpg
 importance: 1
 category: work
 related_publications: true
@@ -19,7 +19,7 @@ Let I denote an uncompressed image. Resizing with a factor ξ involves resamplin
     layout: page
     title: project
     description: a project with a background image
-    img: /assets/img/12.jpg
+    img: assets/img/project1/network.png
     ---
 #### Proposed Method
 
@@ -68,22 +68,4 @@ Uncompressed TIFF images from RAISE dataset are passed through two JPEG compress
     Accuracy in (%) for (a) different resizing factors with QF_2= 90 and QF_1 ∈ {50, 60, 70, 80, 90} (b) different quality factors for second compression (QF_2) averaged over all resizing factors (xi) and first quality factors (QF_1)
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
