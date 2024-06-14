@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IDD-AW A Benchmark for Safe and Robust Segmentation of Drive Scenes in Unstructured Traffic and Adverse Weather
-description: 
+description: Complete details of projects,  dataset and code will be available at [IDDAW](https://iddaw.github.io)
 img: assets/img/project2/iddaw_bg.png
 importance: 2
 category: work
@@ -14,7 +14,9 @@ Large-scale deployment of fully autonomous vehicles requires a very high degree 
 -  paired Near-Infrared (NIR) image for each frame
 - larger label set with a 4-level label hierarchy to capture unstructured traffic conditions. 
 
-We benchmark state-of-the-art models for semantic segmentation in IDD-AW. We also propose a new metric called" Safe mean Intersection over Union (Safe mIoU)" for hierarchical datasets which penalizes dangerous mispredictions that are not captured in the traditional definition of mean Intersection over Union (mIoU). The results show that IDD-AW is one of the most challenging datasets to date for these tasks. The dataset and code will be available at [IDDAW](https://iddaw.github.io)
+We benchmark state-of-the-art models for semantic segmentation in IDD-AW. We also propose a new metric called" Safe mean Intersection over Union (Safe mIoU)" for hierarchical datasets which penalizes dangerous mispredictions that are not captured in the traditional definition of mean Intersection over Union (mIoU). The results show that IDD-AW is one of the most challenging datasets to date for these tasks. 
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,5 +24,6 @@ We benchmark state-of-the-art models for semantic segmentation in IDD-AW. We als
     </div>
 </div>
 <div class="caption">
-    Fig. 1: Visualization of the result of Convolution with 7 types of high pass kernels (1st, 2nd, 3rd, SQUARE 3X3, SQUARE 5X5, EDGE 3X3, SQUARE 5X5 respectively). The first row is for the original image (not-resized DJPEG) and the second for resized DJPEG image
+    We show the pixel level comparison between IDD and IDD-AW for all labels. We can see that even though IDD-AW was collected in various challenging adverse weather conditions, it still has all the classes and almost comparable to normal SOTA driving datasets
+
 </div>
