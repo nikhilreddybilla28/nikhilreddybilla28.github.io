@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Virginia Tech </a>
+subtitle: <a href='#'>Graduate Student at Virginia Tech </a>
 
 profile:
   align: right
