@@ -3,9 +3,9 @@
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Optional: set "last updated" (edit this date when you change the site)
-  var updatedEl = document.getElementById('updated');
-  if (updatedEl) updatedEl.textContent = 'Feb 2025';
+  // Last updated date in welcome section (edit in HTML or here when you change the site)
+  var lastUpdatedEl = document.getElementById('last-updated');
+  if (lastUpdatedEl) lastUpdatedEl.textContent = '02/28/2026';
 
   // Highlight current section in nav on scroll
   var sections = document.querySelectorAll('section[id]');

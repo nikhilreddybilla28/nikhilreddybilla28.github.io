@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Nikhil Reddy Billa — Graduate Student, Virginia Tech. Research in AI security, computer vision, and autonomous systems." />
-  <title>Nikhil Reddy Billa | Academic Profile</title>
+  <title>Nikhil Reddy Billa | Homepage</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -12,73 +12,88 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav" aria-label="Main">
-      <a href="#home" class="nav-link">Home</a>
-      <a href="#research" class="nav-link">Research</a>
-      <a href="#experience" class="nav-link">Experience</a>
-      <a href="#publications" class="nav-link">Publications</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </nav>
+    <div class="container header-inner">
+      <h1 class="site-name"><a href="#home">Nikhil Reddy Billa</a></h1>
+      <nav class="nav" aria-label="Main">
+        <a href="#publications" class="nav-link">Publications</a>
+        <a href="#experience" class="nav-link">Professional Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#teaching" class="nav-link">Teaching</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="assets/cv.pdf" class="nav-link nav-cv" download>CV</a>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- Hero: photo + title + social strip -->
     <section id="home" class="section section-hero">
-      <div class="container hero-grid">
-        <div class="hero-image-wrap">
-          <img src="assets/image.jpeg" alt="Nikhil Reddy Billa" class="hero-photo" width="280" height="280" />
+      <div class="container hero-wrap">
+        <div class="hero-left">
+          <img src="assets/image.jpeg" alt="Nikhil Reddy Billa" class="hero-photo" width="220" height="220" />
         </div>
-        <div class="hero-content">
-          <h1 class="hero-name">Nikhil Reddy Billa</h1>
-          <p class="hero-title">Graduate Student, Researcher &amp; AI Enthusiast</p>
-          <p class="hero-affiliation">Virginia Tech · Computer Engineering (M.S.)</p>
-          <p class="hero-bio">
-            I am a Graduate Research Assistant at the <a href="https://reds-lab.github.io/" target="_blank" rel="noopener">Responsible Data Science Lab</a>, focusing on <strong>privacy and security</strong>—specifically memorization in LLMs, adversarial robustness, and trustworthiness. My research spans AI security, computer vision, and autonomous navigation, with an emphasis on safe and reliable AI deployment.
-          </p>
-          <p class="hero-bio">
-            I received my B.Tech in Electrical Engineering from NIT Rourkela and have industry experience as a Software Engineer at NCR Corporation. I am actively seeking opportunities to develop AI solutions that prioritize safety, privacy, and real-world impact.
-          </p>
-          <div class="hero-links">
-            <a href="assets/cv.pdf" class="btn btn-primary" download>Download CV</a>
-            <a href="https://scholar.google.com/citations?user=hbL-OgIAAAAJ&hl=en" class="btn btn-secondary" target="_blank" rel="noopener">Google Scholar</a>
-          </div>
+        <div class="hero-right">
+          <p class="hero-tagline">ECE Graduate Student</p>
+          <p class="hero-follow">Follow</p>
+          <ul class="hero-meta">
+            <li>Blacksburg, Virginia</li>
+            <li>Virginia Tech</li>
+            <li><a href="mailto:nikilr@vt.edu">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/nikilreddybilla/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/nikhilreddybilla28" target="_blank" rel="noopener">Github</a></li>
+            <li><a href="https://scholar.google.com/citations?user=hbL-OgIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+            <li><a href="assets/cv.pdf" download>CV</a></li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="research" class="section">
-      <div class="container">
-        <h2 class="section-title">Research</h2>
-        <p class="section-intro">
-          My work focuses on AI security, computer vision, and autonomous systems—with an emphasis on privacy, safety, and trustworthiness.
-        </p>
-        <div class="research-areas">
-          <div class="research-card">
-            <h3>LLM Memorization &amp; Privacy</h3>
-            <p>Investigating memorization risks and privacy implications in large language models to enable safer deployment.</p>
-          </div>
-          <div class="research-card">
-            <h3>Adversarial Robustness &amp; Trustworthiness</h3>
-            <p>Improving robustness of AI models against adversarial attacks and building more trustworthy systems.</p>
-          </div>
-          <div class="research-card">
-            <h3>Computer Vision &amp; Image Forensics</h3>
-            <p>CNN-based techniques for digital integrity verification, image resizing forensics, and double-JPEG detection.</p>
-          </div>
-          <div class="research-card">
-            <h3>Autonomous Navigation &amp; Segmentation</h3>
-            <p>Benchmarks and models for safe segmentation in unstructured traffic and adverse weather (e.g., IDD-AW).</p>
-          </div>
-          <div class="research-card">
-            <h3>Domain Adaptation</h3>
-            <p>Unsupervised domain adaptation for medical AI (e.g., retinal development analysis in collaboration with University of Leicester).</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="container main-content">
+      <section class="section section-welcome">
+        <h2 class="welcome-title">Welcome to Nikhil's Homepage!</h2>
+        <p class="welcome-note"><strong>Note:</strong> <em>This webpage was last updated on <strong id="last-updated">02/28/2026</strong>.</em></p>
+      </section>
 
-    <section id="experience" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Work Experience</h2>
+      <section class="section">
+        <h2 class="section-title">About me</h2>
+        <p>Hi, welcome to my personal homepage! I'm a graduate student in <strong>Computer Engineering (M.S.)</strong> at <strong>Virginia Tech</strong>, and a Graduate Research Assistant at the <a href="https://reds-lab.github.io/" target="_blank" rel="noopener">Responsible Data Science Lab</a>. My research focuses on <strong>privacy and security in AI</strong>—specifically memorization in LLMs, adversarial robustness, and trustworthiness—with the goal of enabling safe and reliable deployment of AI systems.</p>
+        <p>I have published at <strong>WACV</strong> and in the <strong>Journal of Information Security and Applications</strong>. My work spans AI security, computer vision, image forensics, and autonomous navigation (e.g., benchmarks for segmentation in unstructured traffic and adverse weather). I have also collaborated on unsupervised domain adaptation for medical AI with the University of Leicester.</p>
+        <p>Prior to Virginia Tech, I completed my <strong>B.Tech in Electrical Engineering</strong> from <strong>NIT Rourkela</strong> and worked as a <strong>Software Engineer at NCR Corporation</strong>. I serve as a <strong>Reviewer</strong> for the Journal of Information Security and Applications (JISA). I am actively seeking opportunities to develop AI solutions that prioritize safety, privacy, and real-world impact.</p>
+      </section>
+
+      <section class="section section-alt">
+        <h2 class="section-title">Research Interests</h2>
+        <p>I work on <strong>AI security, privacy, and trustworthiness</strong>—and their intersection with computer vision and autonomous systems. Current focus areas:</p>
+        <ol class="research-list">
+          <li><strong>LLM Memorization &amp; Privacy:</strong> Investigating memorization risks and privacy implications in large language models to enable safer deployment and reduce leakage of training data.</li>
+          <li><strong>Adversarial Robustness &amp; Trustworthiness:</strong> Improving robustness of AI models against adversarial attacks and building more trustworthy, reliable systems for real-world use.</li>
+          <li><strong>Computer Vision &amp; Image Forensics:</strong> CNN-based techniques for digital integrity verification, image resizing forensics, and double-JPEG detection (e.g., high-pass filter pre-processing with end-to-end networks).</li>
+          <li><strong>Autonomous Navigation &amp; Segmentation:</strong> Benchmarks and models for safe and robust segmentation in unstructured traffic and adverse weather—e.g., <strong>IDD-AW</strong> (WACV 2024).</li>
+          <li><strong>Domain Adaptation:</strong> Unsupervised domain adaptation for medical AI, including retinal development analysis in collaboration with University of Leicester and IIIT Hyderabad.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">News</h2>
+        <ul class="news-list">
+          <li><strong>[Feb. 28, 2026]</strong> Launched updated personal homepage.</li>
+          <li><strong>[Jan. 2024]</strong> 🎉 <strong>IDD-AW</strong> accepted at <strong>WACV 2024</strong>!</li>
+          <li><strong>[2024]</strong> Paper on CNN-based image resizing forensics for double-JPEG images published in <strong>Journal of Information Security and Applications</strong>.</li>
+          <li><strong>[2024]</strong> Joined <strong>Responsible Data Science Lab</strong> at Virginia Tech as Graduate Research Assistant.</li>
+          <!-- Add your news above this line -->
+        </ul>
+      </section>
+
+      <section class="section section-alt">
+        <h2 class="section-title">Honors and Awards</h2>
+        <ul class="awards-list">
+          <li>Reviewer for the <strong>Journal of Information Security and Applications (JISA)</strong></li>
+          <!-- Add your awards, hackathons, scholarships, etc. here -->
+        </ul>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section-title">Professional Experience</h2>
         <ul class="experience-list">
           <li class="experience-item">
             <span class="exp-role">Graduate Research Assistant</span>
@@ -96,19 +111,27 @@
             <span class="exp-meta">Unsupervised domain adaptation for medical AI (retinal development)</span>
           </li>
         </ul>
-        <p class="section-intro" style="margin-top: 1rem;">
-          I also serve as a <strong>Reviewer</strong> for the Journal of Information Security and Applications (JISA).
-        </p>
-      </div>
-    </section>
+      </section>
 
-    <section id="publications" class="section">
-      <div class="container">
+      <section class="section section-alt" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <span class="edu-degree">M.S. in Computer Engineering</span>
+            <span class="edu-school">Virginia Tech, Blacksburg, VA</span>
+            <span class="edu-meta">Expected 2026 (Graduate Research Assistant)</span>
+          </li>
+          <li class="education-item">
+            <span class="edu-degree">B.Tech in Electrical Engineering</span>
+            <span class="edu-school">National Institute of Technology (NIT) Rourkela, India</span>
+            <span class="edu-meta">2018 – 2022</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="publications">
         <h2 class="section-title">Publications</h2>
-        <p class="section-intro">
-          Selected publications. For a full list, see my
-          <a href="https://scholar.google.com/citations?user=hbL-OgIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> profile.
-        </p>
+        <p class="section-intro">Selected publications. Full list on <a href="https://scholar.google.com/citations?user=hbL-OgIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
         <ol class="pub-list">
           <li class="pub-item">
             <span class="pub-authors">Furqan Ahmed Shaik, Abhishek Reddy, Nikhil Reddy Billa, Kunal Chaudhary, Sunny Manchanda, Girish Varma.</span>
@@ -123,27 +146,26 @@
             <a href="https://doi.org/10.1016/j.jisa.2023.103693" class="pub-link" target="_blank" rel="noopener">DOI</a>
           </li>
         </ol>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-grid">
-          <p><strong>Email</strong> <a href="mailto:nikilr@vt.edu">nikilr@vt.edu</a></p>
-          <p><strong>Links</strong>
-            <a href="https://scholar.google.com/citations?user=hbL-OgIAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-            · <a href="https://github.com/nikhilreddybilla28" target="_blank" rel="noopener">GitHub</a>
-            · <a href="https://www.linkedin.com/in/nikilreddybilla/" target="_blank" rel="noopener">LinkedIn</a>
-          </p>
-        </div>
-      </div>
-    </section>
+      <section class="section section-alt" id="teaching">
+        <h2 class="section-title">Teaching</h2>
+        <p>No formal teaching at this time. Open to TA and mentoring opportunities.</p>
+      </section>
+
+      <section class="section" id="service">
+        <h2 class="section-title">Service</h2>
+        <ul class="service-list">
+          <li><strong>Reviewer</strong> — Journal of Information Security and Applications (JISA)</li>
+          <!-- Add conference reviewing, program committees, etc. here -->
+        </ul>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Nikhil Reddy Billa. Last updated: <time id="updated">2025</time>.</p>
+      <p>© <span id="year"></span> Nikhil Reddy Billa. Powered by static HTML/CSS.</p>
     </div>
   </footer>
 
