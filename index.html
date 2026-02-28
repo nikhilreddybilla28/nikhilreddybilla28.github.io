@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academic personal website — Research, Teaching, Publications" />
+  <title>Your Name | Academic Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#research" class="nav-link">Research</a>
+      <a href="#teaching" class="nav-link">Teaching</a>
+      <a href="#publications" class="nav-link">Publications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section section-hero">
+      <div class="container hero-grid">
+        <div class="hero-image-wrap">
+          <img src="assets/photo-placeholder.svg" alt="Your Name" class="hero-photo" width="280" height="280" />
+          <!-- Replace with assets/photo.jpg when you add your headshot -->
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-name">Your Name</h1>
+          <p class="hero-title">Your Title</p>
+          <p class="hero-affiliation">Institution Name · Department</p>
+          <p class="hero-bio">
+            Short professional bio: research focus, background, and what you want visitors to know in 2–3 sentences. Keep it clear and scannable.
+          </p>
+          <div class="hero-links">
+            <a href="assets/cv.pdf" class="btn btn-primary" download>Download CV</a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="btn btn-secondary" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <h2 class="section-title">Research</h2>
+        <p class="section-intro">
+          Brief overview of your research areas and current projects. You can add subsections for different themes or methods.
+        </p>
+        <div class="research-areas">
+          <div class="research-card">
+            <h3>Topic 1</h3>
+            <p>Short description of this research area and key questions or methods.</p>
+          </div>
+          <div class="research-card">
+            <h3>Topic 2</h3>
+            <p>Short description of this research area and key questions or methods.</p>
+          </div>
+          <div class="research-card">
+            <h3>Topic 3</h3>
+            <p>Short description of this research area and key questions or methods.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Teaching</h2>
+        <p class="section-intro">Current and recent courses. Include semester and role if relevant.</p>
+        <ul class="teaching-list">
+          <li>
+            <span class="course-name">Course Name (Course Code)</span>
+            <span class="course-meta">Semester, Role — Short description or link to syllabus.</span>
+          </li>
+          <li>
+            <span class="course-name">Course Name (Course Code)</span>
+            <span class="course-meta">Semester, Role — Short description or link to syllabus.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <p class="section-intro">
+          Selected or recent publications. For a full list, link to your
+          <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a> profile.
+        </p>
+        <ol class="pub-list">
+          <li class="pub-item">
+            <span class="pub-authors">Author A, Author B.</span>
+            <span class="pub-title">"Title of the Paper."</span>
+            <span class="pub-venue">Journal/Conference, Year.</span>
+            <a href="#" class="pub-link">PDF</a>
+            <a href="#" class="pub-link">Code</a>
+          </li>
+          <li class="pub-item">
+            <span class="pub-authors">Author A, Author B.</span>
+            <span class="pub-title">"Title of the Paper."</span>
+            <span class="pub-venue">Journal/Conference, Year.</span>
+            <a href="#" class="pub-link">PDF</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <p><strong>Email</strong> <a href="mailto:you@institution.edu">you@institution.edu</a></p>
+          <p><strong>Office</strong> Building, Room — Office hours by appointment</p>
+          <p><strong>Links</strong>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a>
+            · <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+            · <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. Last updated: <time id="updated">2025</time>.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
