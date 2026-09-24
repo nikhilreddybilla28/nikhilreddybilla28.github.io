@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://nikhilreddybilla28.github.io//sitemap.xml
+Sitemap: https://nikhilreddybilla28.github.io/sitemap.xml
