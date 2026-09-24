@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found · Nikhil Reddy Billa</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      // The old al-folio site had separate pages. Send those URLs to the matching section.
+      (function () {
+        var p = location.pathname.toLowerCase();
+        var map = [
+          ["/publications", "/#research"],
+          ["/projects/1_project", "/#pub-forensics"],
+          ["/projects/2_project", "/#pub-iddaw"],
+          ["/projects", "/#projects"],
+          ["/repositories", "/#projects"],
+          ["/news", "/#news"],
+          ["/cv", "/assets/pdf/Nikhils_Resume.pdf"],
+          ["/blog", "/"],
+          ["/people", "/"],
+          ["/teaching", "/"],
+        ];
+        for (var i = 0; i < map.length; i++) {
+          if (p === map[i][0] || p.indexOf(map[i][0] + "/") === 0) {
+            location.replace(map[i][1]);
+            return;
+          }
+        }
+        try {
+          var t = localStorage.getItem("theme");
+          if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main class="wrap" style="padding-top: 18vh; padding-bottom: 18vh">
+      <p class="role" style="margin-bottom: 6px">404</p>
+      <h1 style="margin: 0 0 12px; font-size: 2rem; letter-spacing: -0.02em">This page doesn't exist.</h1>
+      <p class="lead">The site is now a single page. Try one of these:</p>
+      <ul class="links" style="margin-top: 0">
+        <li><a class="primary" href="/">Home</a></li>
+        <li><a href="/#research">Research</a></li>
+        <li><a href="/#experience">Experience</a></li>
+        <li><a href="/assets/pdf/Nikhils_Resume.pdf">CV (PDF)</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
