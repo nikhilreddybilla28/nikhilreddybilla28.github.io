@@ -1,0 +1,2 @@
+# LinkedIn answers automated clients with HTTP 999, so its links can't be checked.
+^https://(www\.)?linkedin\.com/
