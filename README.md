@@ -1,3 +1,36 @@
+# nikhilreddybilla28.github.io
+
+Personal site of Nikhil Reddy Billa: <https://nikhilreddybilla28.github.io/>
+
+The live site is the static page in [`site/`](site/). It has no build step and no dependencies beyond Google Fonts.
+
+```text
+site/
+├── index.html                  all content: about, news, research, experience, projects, skills
+├── 404.html                    not-found page; forwards old al-folio URLs to the matching section
+├── assets/css/style.css        styles, light and dark themes
+├── assets/js/main.js           theme toggle, BibTeX copy button, active-section highlight
+├── assets/img/                 photo, social preview card, paper thumbnails
+└── assets/pdf/Nikhils_Resume.pdf
+```
+
+The layout follows [Jon Barron's academic template](https://github.com/jonbarron/jonbarron.github.io): bio and photo on top, then papers as rows with a thumbnail, with the ones to read first highlighted. Experience, projects, and skills sections are added for industry readers.
+
+## Editing
+
+- **News:** add an `<li>` at the top of the News list in `site/index.html`. Keep about six visible and move older ones into the "Older news" block.
+- **Papers:** copy an `<article class="pub">` block. Add the `pub--hl` class to highlight a paper. Thumbnails are 480×360 images in `site/assets/img/thumbs/` (ship a `.jpg` and a `.webp`) or inline SVG.
+- **CV:** replace `site/assets/pdf/Nikhils_Resume.pdf` and keep the file name, so links already sent out keep working.
+- **Preview locally:** `cd site && python3 -m http.server 8000`, then open <http://localhost:8000>.
+
+## Deployment
+
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) copies `site/` to the `gh-pages` branch, which GitHub Pages serves. It runs on pushes to `master`, `main`, or `claude/portfolio-website-redesign-klfc0i` that change `site/`, and it can be started by hand from the Actions tab.
+
+The rest of the repository (`_config.yml`, `_pages/`, `_layouts/`, and so on) is the previous al-folio version of the site. It is no longer built or deployed and can be deleted. Its original README follows.
+
+---
+
 # al-folio
 
 <div align="center">
