@@ -10,8 +10,7 @@ site/
 ├── 404.html                    not-found page; forwards old al-folio URLs to the matching section
 ├── assets/css/style.css        styles, light and dark themes
 ├── assets/js/main.js           theme toggle, BibTeX copy button, active-section highlight
-├── assets/img/                 photo, social preview card, paper thumbnails
-└── assets/pdf/Nikhils_Resume.pdf
+└── assets/img/                 photo, social preview card, paper thumbnails
 ```
 
 The layout follows [Jon Barron's academic template](https://github.com/jonbarron/jonbarron.github.io): bio and photo on top, then papers as rows with a thumbnail, with the ones to read first highlighted. Experience, projects, and skills sections are added for industry readers.
@@ -20,7 +19,6 @@ The layout follows [Jon Barron's academic template](https://github.com/jonbarron
 
 - **News:** add an `<li>` at the top of the News list in `site/index.html`. Keep about six visible and move older ones into the "Older news" block.
 - **Papers:** copy an `<article class="pub">` block. Add the `pub--hl` class to highlight a paper. Thumbnails are 480×360 images in `site/assets/img/thumbs/` (ship a `.jpg` and a `.webp`) or inline SVG.
-- **CV:** replace `site/assets/pdf/Nikhils_Resume.pdf` and keep the file name, so links already sent out keep working.
 - **Preview locally:** `cd site && python3 -m http.server 8000`, then open <http://localhost:8000>.
 
 ## Deployment

@@ -32,7 +32,6 @@ jobs:
           test -f site/index.html
           test -f site/404.html
           test -f site/.nojekyll
-          test -f site/assets/pdf/Nikhils_Resume.pdf
 
       - name: Deploy site/ to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
