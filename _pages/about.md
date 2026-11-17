@@ -28,5 +28,3 @@ My research spans multiple areas, including AI security, computer vision, and au
 Beyond research, I actively contribute to the AI community as a Reviewer for the JISA, evaluating research on AI security. I engage in open-source collaborations and stay at the forefront of LLMs and multimodal AI to drive impactful innovations.  
 
 I am actively seeking opportunities that align with my expertise, allowing me to develop AI solutions that prioritize safety, privacy, and real-world impact. Let’s connect and collaborate!  
-
-Please find my [CV](https://nikhilreddybilla28.github.io/assets/pdf/Nikhils_Resume.pdf) here
